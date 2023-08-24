@@ -1,6 +1,6 @@
 require('@nomiclabs/hardhat-waffle');
-
-module.exports = {
+//hardhat-waffle is commonly used for testing Ethereum smart contracts
+module.exports = {    //The object contains properties that define how Hardhat behaves and interacts with the Ethereum network.
   solidity: '0.8.1',
   networks: {
     sepolia: {
